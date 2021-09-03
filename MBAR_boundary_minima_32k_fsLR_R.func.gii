@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GIFTI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="http://brainvis.wustl.edu/caret6/xml_schemas/GIFTI_Caret.xsd"
+       Version="1"
+       NumberOfDataArrays="1">
+   <MetaData>
+      <MD>
+         <Name><![CDATA[AnatomicalStructurePrimary]]></Name>
+         <Value><![CDATA[CortexRight]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[ParentProvenance]]></Name>
+         <Value><![CDATA[/data/project/vislab/a/MBAR/MBAR_systemsegregation/HAN_OAnodes/fsaverage_LR32k/Q1-Q6_RelatedParcellation210.R.very_inflated_MSMAll_2_d41_WRN_DeDrift.32k_fs_LR.surf.gii:
+/home/brainmappers/workbench/fetchdir/wb_command.9993 -surface-generate-inflated /media/myelin/brainmappers/Connectome_Project/HCP_PhaseTwo/Q1-Q6_RelatedParcellation210/MNINonLinear/fsaverage_LR32k/Q1-Q6_RelatedParcellation210.R.midthickness_MSMAll_2_d41_WRN_DeDrift.32k_fs_LR.surf.gii /media/myelin/brainmappers/Connectome_Project/HCP_PhaseTwo/Q1-Q6_RelatedParcellation210/MNINonLinear/fsaverage_LR32k/Q1-Q6_RelatedParcellation210.R.inflated_MSMAll_2_d41_WRN_DeDrift.32k_fs_LR.surf.gii /media/myelin/brainmappers/Connectome_Project/HCP_PhaseTwo/Q1-Q6_RelatedParcellation210/MNINonLinear/fsaverage_LR32k/Q1-Q6_RelatedParcellation210.R.very_inflated_MSMAll_2_d41_WRN_DeDrift.32k_fs_LR.surf.gii -iterations-scale 1
+
+]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[ProgramProvenance]]></Name>
+         <Value><![CDATA[Connectome Workbench
+Type: Command Line Application
+Version: 1.4.2
+Qt Compiled Version: 5.7.0
+Qt Runtime Version: 5.7.0
+Commit: 092b7f2f7dfab0f9ea7cbb6c1db2e5dffd2c1045
+Commit Date: 2020-01-07 17:24:23 -0600
+Compiled with OpenMP: YES
+Compiler: g++ (/export/gcc-4.8.5/bin)
+Compiler Version: 4.8.5
+Compiled Debug: NO
+Operating System: Linux
+]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[Provenance]]></Name>
+         <Value><![CDATA[/data/rc/apps/rc/software/ConnectomeWorkbench/1.4.2/bin_rh_linux64/../exe_rh_linux64/wb_command -metric-extrema /data/project/vislab/a/MBAR/MBAR_systemsegregation/HAN_OAnodes/fsaverage_LR32k/Q1-Q6_RelatedParcellation210.R.very_inflated_MSMAll_2_d41_WRN_DeDrift.32k_fs_LR.surf.gii /data/project/vislab/a/MBAR/MBAR_systemsegregation/MBAR_nodes/boundary_maps/avg_corrofcorr_allgrad_R_smooth2.55_wateredge_avg.func.gii 4 /data/project/vislab/a/MBAR/MBAR_systemsegregation/MBAR_nodes/ROIs/MBAR_boundary_minima_32k_fsLR_R.func.gii -only-minima -presmooth 1]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[WorkingDirectory]]></Name>
+         <Value><![CDATA[/home/snolin]]></Value>
+      </MD>
+   </MetaData>
+   <LabelTable>
+      <Label Key="0" Red="1" Green="1" Blue="1" Alpha="0"><![CDATA[???]]></Label>
+   </LabelTable>
+<DataArray Intent="NIFTI_INTENT_NORMAL"
+           DataType="NIFTI_TYPE_FLOAT32"
+           ArrayIndexingOrder="RowMajorOrder"
+           Dimensionality="1"
+           Dim0="32492"
+           Encoding="GZipBase64Binary"
+           Endian="LittleEndian"
+           ExternalFileName=""
+           ExternalFileOffset="0">
+   <MetaData>
+      <MD>
+         <Name><![CDATA[Name]]></Name>
+         <Value><![CDATA[extrema of #1]]></Value>
+      </MD>
+   </MetaData>
+   <Data>eJzt3FtWWzEMBVCG3pl1al1d+YCUNPgmfuix9wCILR3J+QA+Pvju1+/TJ4C1ZBwAGOV7w+vUDmA/u7eHbH3Odl6I6sosmbuz1B/qiTjXu84U8e68J0NPM5wR4LSru9JuhXHm5d6Oeqg5mX3NrywDu9g39fkOVp/6AzvZOZzQIXcd7hidHvCv0UzIDjvJJcAZ9uo4tepFv4Gr7I051BHgsVP70V4GKlu94+xQWMuMQV/mH7AHgCrsM6qQZYB4Ku3mSncBWMGe5AS5g59lmZMs52ScngL0YefHM7Mn+gtkZ49xgrcYeJfZJwtZhbmuzFT2+ct+fr7TU1Y7nbHTnw/Ave57ufv9R6gRV8kMFfyU48g5j3w2AMjK+wpn5sDs8Yx85NKxXx3vDDCLHQpANN4mNQDYwa7lEbkgGpkEGGdnAkBN3ni6e3UGzA7A+7ru0q73htPMHp3syLuZAjjPLs5DrwCIwHsERJb5f+XOsOt+EesY8UwA7OENYAW5glzMbE1X+yoHsJ+5g3tmoid930/Na9NfWMNs5aZ/86glQF+d34DOdwdYwV59Tn3y08Me9JmK5Lo2/YXXdZufKPeNco5R2c4LX8kv3Ns9E2bwsYp1qXgnxug9AFDRrO840b8rRT8fuckXsIt9k0/Fnp2+0+nPz0CNgFXsl7iq9ub0vU5/PoySVXiN2eGER7mTxU9qkZ8ewo1ZgHjMJQDM412F2EZm1BwDUdlP0INZn09N6ULWqU7G4RozU5O+AjPZKfOpKUBP9n9eegd0Zf+RhazOp6bsFDFvEc8Ej8jqjTrAz8xJXjN7d/VnyQ3ks3pus+6FrOdmrmc58PfkRCZ786kpK8kX0IV9B/fMBMRlPm9W1kGN6UjuyURe+UsOgExm7Sy7D/bxezfwSdb5H9mA+rLPefbz8x79r0Mv+9BrXvcHqSQFvg==</Data>
+</DataArray>
+</GIFTI>
