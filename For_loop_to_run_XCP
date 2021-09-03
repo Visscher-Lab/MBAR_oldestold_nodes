@@ -1,0 +1,17 @@
+module load Singularity/2.6.1-GCC-5.4.0-2.26 #Load singularity
+basepath=/data/project/vislab/a/MBAR/Resting_preproc/XCPEngine #where design and cohort files are
+bindpath=/data/project/vislab/a/MBAR/Anat_preproc/derivatives/
+output=$basepath/outputs_dvars5/XCP_output_MBAR_single_struc #output path
+intermediate=$basepath/inter #intermediate path
+cd /data/project/vislab/a/MBAR/Resting_preproc/XCPEngine/Split_Cohort_Files/
+for file in *.csv; do singularity run -B $basepath,$bindpath $basepath/xcpEnginenew.simg -d $basepath/Design_Files/fc-36p_scrub_MBAR_4mm_dvars5.dsn -c $file -o $output -i $basepath/inter/ -t 3; done
+
+
+#single sub
+module load Singularity/2.6.1-GCC-5.4.0-2.26 #Load singularity
+basepath=/data/project/vislab/a/MBAR/Resting_preproc/XCPEngine #where design and cohort files are
+bindpath=/data/project/vislab/a/MBAR/Anat_preproc/derivatives/
+output=$basepath/outputs_dvars5/XCP_output_MBAR_single_struc #output path
+intermediate=$basepath/inter #intermediate path
+cd /data/project/vislab/a/MBAR/Resting_preproc/XCPEngine/Split_Cohort_Files/
+singularity run -B $basepath,$bindpath $basepath/xcpEnginenew.simg -d $basepath/Design_Files/fc-36p_scrub_MBAR_4mm_dvars5.dsn -c /data/project/vislab/a/MBAR/Resting_preproc/XCPEngine/Split_Cohort_Files/sub-MBAR30036_cohort.csv -o $output -i $basepath/inter/ -t 3
