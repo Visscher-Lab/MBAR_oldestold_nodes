@@ -6,7 +6,8 @@ fMRI preprocessing
 3. Run fMRIprep (wrapper_fmriprep.job)
 4. Run XCPEngine (CreateCohortFileMBAR.m, SplitCohortFile.m, design file (fc-36p_scrub_MBAR_4mm_dvars5.dsn), For_loop_to_run_XCP)
 5. Ciftify XCPEngine outputs (Ciftify_xcpengine_outputs.m)
- Boundary based mapping and segregation calculation code can be found at https://www.wigneurolab.org/resources. 
+
+Boundary based mapping and segregation calculation code can be found at https://www.wigneurolab.org/resources. 
 	Averaged boundary based map= avg_corrofcorr_allgrad_L_smooth2.55_wateredge_avg.func.gii and avg_corrofcorr_allgrad_R_smooth2.55_wateredge_avg.func.gii
 
 Create ROIs from boundary minima (creating_ROIs)
@@ -14,8 +15,8 @@ Create ROIs from boundary minima (creating_ROIs)
 
 Make ROIs into label gifti space (using_matrix2gifti.m)
 
-Right_labels_allsame.label.gii (unlabeled dots)
-Right_labels_unique.label.gii (each dot has its own unique id)
+Right_labels_allsame.label.gii (network unlabeled dots, aka all white)
+Right_labels_unique.label.gii (each dot has its own unique id not related to networks aka random color)
 R_powerlabeleddots.label.gii (dots with network assignments)
 
 Label assignment descriptors= MBAR_ROIs (1).xlsx
